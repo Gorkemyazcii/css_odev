@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700;800;900&family=Poppins:wght@200;300;400;500;700&display=swap');
+
+.google {
+    background-image: linear-gradient(
+      to right,
+      blue,
+      red,
+      yellow,
+      blue,
+      green,
+      red,
+      blue
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  
+}
+.search{
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 915px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.containerTwo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  
+}
+input{
+  width: 500px;
+  height: 25px;
+}
+.special{
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+.help{
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: #70ccc2;
+  display: flex;
+  flex-direction: column;
+}
+.get-google{
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: #62b3aa;
+  display: flex;
+  flex-direction: column;
+}
+.mail{
+  width: 150px;
+}
+h3{
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+p.update{
+  padding: 0;
+  margin: 0;
+  }
